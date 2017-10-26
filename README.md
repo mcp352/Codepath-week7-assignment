@@ -30,8 +30,8 @@ Time spent: **infinity** hours spent in total
     - Vulnerability types:CSRF
     - Tested in version:4.2
     - Fixed in version: 4.2.15
-  - [ ] GIF Walkthrough: I would post a GIF walkthrough but I do not have an external server
-  - [ ] Steps to recreate: On an external server, create a large text file with the command:
+  - [ ] GIF Walkthrough: I would post a GIF walkthrough but I do not have an external server to do this one
+  - [x] Steps to recreate: On an external server, create a large text file with the command:
 perl -e 'print "<>"x28000000' > foo.txt
 
 Next, create a file called dos.html on the external server with enough entries to fill the connection pool of the WordPress server, as follows:
@@ -45,11 +45,6 @@ Next, create a file called dos.html on the external server with enough entries t
 (replace <wp server> with the WordPress server address and <external server> with the external server)
 
 Now have a logged in admin visit dos.html. The server will be down for a while.
-  Create a 20MB file called arbitrary_name<img src=x onerror=alert(1)>.png
-  go to your wordpress site and drag-n-drop or use the selectfile button
-  an error will appear and say exceeds max file upload size and show a prompt
-
-
 
 
 ## Resources

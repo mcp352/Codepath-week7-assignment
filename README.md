@@ -46,6 +46,9 @@ Next, create a file called dos.html on the external server with enough entries t
 
 Now have a logged in admin visit dos.html. The server will be down for a while.
 
+## Bonus!
+  https://github.com/mcp352/Codepath-week7-assignment/blob/master/EB38FDF2-8A6E-4C7A-AFB9-0EAB312CBC3B.GIF
+  funny story is that whenever I load any page after XSS attack it ALWAYS loads the prompt even when the XSS is not in the search bar
 
 ## Resources
 

@@ -17,13 +17,12 @@ Time spent: **infinity** hours spent in total
   - [ ] Steps to recreate: 
 
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: customizer XSS & CSRF
+  - [ ] Summary: Post XSS
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.16
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] GIF Walkthrough: https://github.com/mcp352/Codepath-week7-assignment/blob/master/26853F0C-8FF8-45CD-A293-118BEDE1A3D8.GIF
+  - [ ] Steps to recreate: be an admin on a wordpress site and make a new (malicious) post that contains <img src=a onerror=(1)>
 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: large File Upload Error XSS

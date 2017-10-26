@@ -13,21 +13,21 @@ Time spent: **infinity** hours spent in total
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.7.5
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: I NO JOKE FOUND THIS ONE MYSELF
+  - [x] GIF Walkthrough: https://github.com/mcp352/Codepath-week7-assignment/blob/master/268E5800-5A93-4B21-894F-FCF51EDDC791.GIF
+  - [x] Steps to recreate: I NO JOKE FOUND THIS ONE MYSELF
   when you cant find a page there is a wordpress search bar for which you can type in almsot any XSS code and get it to run
 
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: Post XSS
+  - [x] Summary: Post XSS
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.16
-  - [ ] GIF Walkthrough: https://github.com/mcp352/Codepath-week7-assignment/blob/master/26853F0C-8FF8-45CD-A293-118BEDE1A3D8.GIF
-  - [ ] Steps to recreate: be an admin on a wordpress site and make a new (malicious) post that contains <img src=a onerror=(1)>
+  - [x] GIF Walkthrough: https://github.com/mcp352/Codepath-week7-assignment/blob/master/26853F0C-8FF8-45CD-A293-118BEDE1A3D8.GIF
+  - [x] Steps to recreate: be an admin on a wordpress site and make a new (malicious) post that contains <img src=a onerror=(1)>
 
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: large File Upload Error XSS
-    - Vulnerability types:XSS
+  - [x] Summary: CSRF and a dash of XSS
+    - Vulnerability types:CSRF
     - Tested in version:4.2
     - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: I would post a GIF walkthrough but I do not have an external server
@@ -48,20 +48,14 @@ Now have a logged in admin visit dos.html. The server will be down for a while.
   Create a 20MB file called arbitrary_name<img src=x onerror=alert(1)>.png
   go to your wordpress site and drag-n-drop or use the selectfile button
   an error will appear and say exceeds max file upload size and show a prompt
-  - [ ] Affected source code:
+
 
 
 
 ## Resources
 
-- [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
-- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
 GIFs created with [SnagIt].
-
-## Notes
-
-Describe any challenges encountered while doing the work
 
 ## License
 

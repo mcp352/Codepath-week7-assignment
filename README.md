@@ -15,17 +15,16 @@ Time spent: **infinity** hours spent in total
     - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: customizer XSS & CSRF
-    - Vulnerability types:
+    - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.16
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: large File Upload Error XSS
     - Vulnerability types:XSS
@@ -33,8 +32,11 @@ Time spent: **infinity** hours spent in total
     - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+  Create a 20MB file called arbitrary_name<img src=x onerror=alert(1)>.png
+  go to your wordpress site and drag-n-drop or use the selectfile button
+  an error will appear and say exceeds max file upload size and show a prompt
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 
 
 ## Resources
